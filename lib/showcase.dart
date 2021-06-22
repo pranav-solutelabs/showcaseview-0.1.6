@@ -257,7 +257,8 @@ class _ShowcaseState extends State<Showcase> with TickerProviderStateMixin {
             _TargetWidget(
               offset: offset,
               size: size,
-              onTap: _nextIfAny,
+              // onTap: _nextIfAny,
+              onTap: null,
               shapeBorder: widget.shapeBorder,
             ),
             ToolTipWidget(
